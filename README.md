@@ -1,147 +1,54 @@
+![ Github-Bunner ](assets/Github-bunner.png)
+
+##
+
+### __Sobre o projeto__<br>
+O MatHelper é um aplicativo desenvolvido com o objetivo de auxiliar estudantes com dificuldade de aprendizado em disciplinas matemáticas. Sua dinâmica introduz os alunos em vários conceitos relacionados ao campo através de quizes, e disponibiliza tópicos mais complexos de forma gradual conforme avança nas questões.
 
 
-## Índice
+### __Execução e dependências__<br>
+O MatHelper foi desenvolvido utilizando Dart Flutter, então, para executar o aplicativo via desktop, é necessario baixar a varsão 3.7.2 ou superior do Flutter SDK. Além disso, é importante que você possua o Git baixado em sua máquina, pois o Flutter depende dirtetamente dele para funiconar corretamente. A seguir foi incluído um passo a passo de como baixar cada um
 
-- [ Introdução ](#introdução)
-  - [ Instalação e requisitos ](#instalação)
+__Git:__<br>
+- Acesse o [ site oficial para download do Git ](https://git-scm.com/downloads) e baixe o executável do programa;<br><br>
+- Instale o git em sua máquina marcando a opção *__Git from the command line and also from 3rd-party software__* na tela *__Adjusting your PATH environment__*;<br><br>
+- Continue o processo de instalação até finalizar;<br><br>
+- Verifique se o programa foi instalado corretamente abrindo o cmd de sua máquina e digitando o comando:<br><br>
+    ~~~~
+    git --version
+    ~~~~
+    Após isso, o prompt exibirá a versão do git instalada em sua máquina.<br><br>
 
-<br>
-
-- [ Engenharia ](#engenharia)
-  - [ Objetivo ](#-objetivo-)
-  - [ Análise de requisitos ](#-análise-de-requisitos-)
-  - [ MVP ](#-mvp-)
-  - [ Arquitetura ](#-arquitetura-)
-
-<br>
-
-- [ Design ](#design)
-  - [ Protótipo de baixa fidelidade ](#-layout-)
-  - [ Identidade visual ](#-identidade-visual)
-  - [ Elementos gráficos ](#-elementos-gráficos-)
-  - [ Protótipo de alta fidelidade ](#-uiux-design-)
-
-<br>
-
-- [ Desenvolvimento ](#desenvolvimento)
-  - [ Tecnologias ](#-tecs-)
-  - [ Configurações de ambiente ](#-envirounment-)
-  - [ Configurações do ambientes de testes ](#-testes-)
-  - [ Prazos e entregas ](#-entregas-)
-
-<br>
-
-- [ Análise e conclusão ](#conclusão)
-
+__Flutter SDK:__<br>
+- Acesse o [ site oficial para download do Flutter SDK ](https://docs.flutter.dev/get-started/install), selecione seu sistema opercional e, em seguida, a opção recomendada (Android);<br><br>
+- Navegue pela página até encontra a sessão *__Install the Flutter SDK__*;<br><br>
+- Selecione a opção *__Download and Install__* e baixe o arquivo compactado do flutter;<br><br>
+- Descompacte a pasta no disco local do seu computador (Normalmente é o "__C:/__");<br><br>
+- Busque pelas configurações por *__variáveis de ambiente__* e edite a variável de sistema com o nome *__Path__*;
+- Selecione a opção *__Novo__* e digite o caminho da pasta *__bin__* dentro do flutter. Por exemplo:<br><br>
+    ~~~
+    C:/flutter/bin
+    ~~~
+    <br>
 ##
 
 <br>
 
-## __Introdução__
+ Caso queira saber mais sobre o processo de desenvolvimento do projeto, acesse a [ Documentação ](Documentation.md) para entender o passo a passo por trás da aplicação.
 
-O Mathelper é um aplicativo desenvolvido com o intuito de reforçar, treinar e incentivar a importância do aprendizado matemático.
-
-Segundo um artigo publicado pela CNN em 2024, "o Brasil está entre os piores países em ranking global que apresenta o  desempenho de estudantes do 4º e 8º anos do ensino fundamental na área de matemática".
-
-Com isso, o Mathelper se apresenta como uma ferramenta capaz de introduzir os estudantes em várias vertentes matemáticas de forma linear e gradual.
-
-##
-
-<br>
-
-## __Engenharia__
-
-Durante o decorrer do projeto, o processo de engenharia foi estruturado visando a gestão eficiente de tempo e qualidade nas entregas. Dentre alguns conceitos e ferramentas usadas para a implementação dessa etapa estão: 
-  - Análise de requisitos
-  - Diagramas UML
-  - SCRUM
-  - Kanban
-
-
-> ### -> *Objetivo*
-
-Desenvolver uma aplicação capaz de introduzir conceitos matemáticos de maneira gradual ao usuário no formato quiz. A aplicação deve conter não somente matemática básica, mas também vertentes matemáticas mais complexas como probabilidade, estatística, cálculo, matemática discreta, álgebra linear, dentre outros conceitos avançados do campo.
-
-> ### -> *Análise de requisitos*
-Após a estruturação do processo de engenharia e a definição do objetivo do projeto, foi elaborada uma lista de requisitos básicos para o funcionamento eficiente da aplicação. Dentre eles:
-
-  - Oferecer um pacote de questões referente a cada uma das vertente matemática;
-  <br><br>
-  - Aplicar níveis distintos de dificuldade para cada pacote, que levam em conta o prograsso do usuário em determinada vertente;
-  <br><br>
-  - Utilizar uma estrutura hierárquica de desbloqueio, que permita liberar mais pacotes conforme o usuário avança em outros módulos;
-  <br><br>
-  - Atribuir uma pontuação total ao usuário, que pode ser subdividida em uma lista de pontos por categoria.
-
-> ### -> *MVP*
-
-O MVP para o projeto em questão foi desenvolvido a partir de um escopo mínimo para a aplicação, que consiste na implementação de:
-  - Um pacote de questões para cada um dos campos matemáticos mais populares;
-  <br><br>
-  - Um sistema de pontuação simples por quiz;
-  <br><br>
-  - Uma dinâmica de feedback visual instantaneo de acertos/erros;
-  <br><br>
-  - Uma dinâmica de feedback total de acertos/erros, exibida ao fim de cada quiz.
-  
-Dentre os pacotes de questões mais populares mencionados na lista acima, estão incluídos: matemática básica, probabilidade, estatística e matemática discreta.
-
-> ### -> *Arquitetura*
-
-Para a elaboração da arquitetura do processo de engenharia, foram usadas três ferramentas principais incluídas ao workflow do projeto, sendo elas: Diagramas UML, quadro Kanban, metodologia SCRUM e 
-
-##
-
-<br>
-
-## __Design__
-
-
-
-> ### -> *Layout*
-
-> ### -> *Identidade visual*
-
-> ### -> *Elementos gráficos*
-
-> ### -> *UI/UX Design*
-
-##
-
-<br>
-
-## __Desenvolvimento__ 
-
-
-> ### -> *Tecs*
  
-> ### -> *Envirounment*
-
-> ### -> *Testes*
-
-> ### -> *Entregas*
-
-##
-
 <br>
 
-## __Conclusão__
-
-
-##
-
-<br>
-
-Gostou? Conheça mais experiências em: 
+Gostou? Conheça mais projetos em: 
 
 <div style="display: flex; gap: 20px;">
 
 <a href="https://www.linkedin.com/in/gothlul" target="_blank">
 <img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a> 
+</a>
 
-<a href="https://www.linkedin.com/in/seu-usuário-linkedln-aqui" target="_blank">
-<img loading="lazy" src="https://img.shields.io/badge/-Instagram-%230077B5?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
-</a> 
+<a href="https://www.github.com/gothlul" target="_blank">
+<img loading="lazy" src="https://img.shields.io/badge/-Github-%230077B5?style=for-the-badge&logo=github&logoColor=white" target="_blank">
+</a>
 
 </div>
