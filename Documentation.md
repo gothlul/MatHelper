@@ -71,16 +71,42 @@ Para a elaboração desse projeto, o processo de engenharia foi dividido em quat
   - __Arquitetura e modelagem de dados:__<br>
     Onde serão definidos diagramas de caso de uso e de classes, para facilitar o processo de desenvolvimento e acelerar a implementação; modelados os dados, que poderão ou não ser armazenados em um bancos de dados; e escolhida a arquitetura por trás do funcionamento do sistema.
 
+<br>
+
 > ### *Objetivo*
 
 Desenvolver uma aplicação capaz de introduzir conceitos matemáticos de maneira gradual ao usuário no formato quiz. A aplicação deve conter não somente matemática básica, mas também vertentes matemáticas mais complexas como probabilidade, estatística, cálculo, matemática discreta, álgebra linear, dentre outros conceitos avançados do campo.
 
-> ### *Levantament e análise de requisitos*
+<br>
+
+> ### *Levantamento e análise de requisitos*
 Após definir quais são os objetivos e soluções aos problemas propostos pelo projeto, o próximo passo foi elaborar uma lista de requisitos básicos para a aplicação. Sendo eles:
 
+  - Disponibilizar ao usuário uma visualização de todos os módulos disponíveis;
+
+  - Permitir que o usuário acesse cada um dos módulos disponíveis;
+
+  - Permitir a vizualização de uma lista de tópicos, referente ao conteúdo abordado por cada módulo;
+
+  - Disponibilizar diferentes níveis de dificuldade para o questionário de cada um dos módulo;
+
+  - Permitir que o usuário avance nos diferentes níveis de dificuldade conforme responde as questões;
+
+  - Permitir que o usuário inicie e conclua o quiz referente ao módulo;
+
+  - Disponibilizar ao usuário uma dinâmica de feedback instantâneo do resultado parcial do questionário;
+
+  - Disponibilizar uma visualização ao fim de cada quiz do resultado final para usuário;
+
+  - Permitir que o usuário tenha acesso a uma pontuação geral para avaliar o próprio desempenho;
+
+  - Permitir que o usuário tenha acesso a uma pontuação categorizada com cada uma das pontuações e seus respectivos módulos.
+
+<br>
 
 > ### *MVP*
 
+<br>
 
 > ### *Arquitetura e modelagem de dados*
 
@@ -92,13 +118,19 @@ Após definir quais são os objetivos e soluções aos problemas propostos pelo 
 
 ## __UI/UX Design__
 
-
+<br>
 
 > ### *Briefing*
 
+<br>
+
 > ### *Design visual*
 
+<br>
+
 > ### *Prototipagem*
+
+<br>
 
 > ### *Teste de usabilidade*
 
@@ -108,18 +140,23 @@ Após definir quais são os objetivos e soluções aos problemas propostos pelo 
 
 ## __Desenvolvimento__ 
 
+<br>
 
 > ### *Tecs*
+
+<br>
  
 > ### *Envirounment*
 
+<br>
+
 > ### *Testes*
+
+<br>
 
 > ### *Entregas*
 
 ##
-
-<br>
 
 ## __Conclusão__
 
